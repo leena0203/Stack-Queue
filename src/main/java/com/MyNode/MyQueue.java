@@ -18,8 +18,21 @@ public class MyQueue {
 		myLinkedList.append(element);
 		return true;
 	}
+	
+	/**
+	 * UC4 Dequeue to remove first element
+	 * @return
+	 */
+	public INode dequeue() {
+		return myLinkedList.pop();
+	}
+	
+	/**
+	 * PrintQueue
+	 */
 	public void printQueue() {
 		myLinkedList.printMyNode();
 	}
+	
 
 }
